@@ -1,0 +1,47 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.selected {
+  border-top: 10px solid greenyellow;
+}
+
+.red {
+  border-color: red;
+}
+
+.grey {
+  border-color: grey;
+}
+
+.green {
+  color: lightgreen !important;
+}
+
+.cases {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.total {
+  color: #ffffff;
+  font-size: 1.2rem !important;
+  margin-top: 15px !important;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+@media (max-width: 468px) {
+  h2 {
+      font-size: 1rem !important;  
+  }
+
+}

@@ -1,0 +1,44 @@
+.app { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.appLeft {
+   flex: 0.9;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appRight {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.tableTitle {
+    margin-top: 30px;
+}
+
+.graph {
+    padding-top: 20px;
+}
+
+@media (max-width: 990px) {
+    .app {
+        flex-direction: column;
+    }
+}

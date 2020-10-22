@@ -1,0 +1,39 @@
+.tables {
+  margin-top: 15px;
+  overflow: auto;
+  height: 13rem;
+  color: rgba(250, 250, 250, 0.986);
+  background-color: rgb(61, 60, 60);
+  border-collapse: collapse; 
+}
+
+td,
+th {
+  border: 1px;
+  padding: 0.5rem;
+  width: 30%;
+  text-align: left;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body:nth-of-type(odd) {
+  background-color: #5d5c5e;
+}
+
+.tableTotal {
+  width: 100%;
+}
+
+.tableOne {
+    width: 100%;
+  }
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(34, 33, 32);
+} 

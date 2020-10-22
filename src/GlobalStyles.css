@@ -1,0 +1,68 @@
+body {
+    background-color: #181717;
+    color: white; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+* {
+    margin: 0;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.MuiCardContent-root{
+    background-color:rgb(61, 60, 60);
+    color: white;
+}
+
+
+.MuiInputBase-root {
+    background-color:rgb(61, 60, 60);
+    color: white !important;
+    font-size: 1.2rem !important;
+}
+
+.MuiPaper-root {
+    background-color:rgb(61, 60, 60) !important;
+    color: white !important;
+}
+
+@media (max-width: 468px) {
+    .MuiInputBase-root{
+        font-size: 1rem !important;  
+    }
+
+    .MuiFormControl-root {
+        display: flex !important;
+        flex-direction: unset !important;
+    }
+
+    .MuiTypography-body1 {
+        font-size: 0.75rem !important;
+    }
+
+    .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+        width: 10rem !important;
+    }
+}
+
+@media (min-width: 468px) and (max-width:  990px) {
+    .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+        width: 18.2rem !important;
+    }
+}
+
+@media (min-width:  991px) {
+    .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+        width: 17rem !important;
+    }
+}
+
+@media (min-width:  1432px) {
+    .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+        width: 19rem !important;
+    }
+}
